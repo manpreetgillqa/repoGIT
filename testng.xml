@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3" >
+	<test name = "myTest">
+		<parameter name="uname" value="jim"></parameter>
+		<parameter name="pword" value="123456"></parameter>
+		<parameter name="AccName" value="jim01"></parameter>
+		<classes>
+			<class name = "suiteCRM_TestPackage.logintest">
+			</class>
+		</classes>
+	</test>
+	
+</suite>
